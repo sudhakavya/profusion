@@ -47,7 +47,7 @@ Enable-CloudLabsEmbeddedShadow $vmAdminUsername $trainerUserName $trainerUserPas
 
 #Download LogonTask
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://experienceazure.blob.core.windows.net/templates/what-the-hack/wth-01-intro-kubernetes/scripts/logontask.ps1","C:\LabFiles\logontask.ps1")
+$WebClient.DownloadFile("https://raw.githubusercontent.com/sudhakavya/profusion/main/logontask.ps1","C:\LabFiles\logontask.ps1")
 
 
 #Enable Auto-Logon
